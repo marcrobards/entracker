@@ -1,0 +1,17 @@
+{
+  "name": "en-tracker",
+  "description": "tracks en athletes splits during m-dot races",
+  "version": "2.6.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Marc Robards (marc@robards.org)",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "^4.11.1",
+    "easy-mysql": "^1.0.3",
+    "mysql": "^2.5.4"
+  }
+}
